@@ -1,0 +1,33 @@
+CREATE DATABASE inventory_db;
+
+CREATE TABLE brand (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL,
+	entry_date DATETIME NOT NULL,
+PRIMARY KEY(id));
+
+CREATE TABLE models (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	brand_id INT(11) NOT NULL, 
+	name VARCHAR(100) NOT NULL,
+	entry_date DATETIME NOT NULL,
+PRIMARY KEY(id));
+
+CREATE TABLE items (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	brand_id INT(11) NOT NULL,
+	model_id INT(11) NOT NULL,
+	name VARCHAR(255) NOT NULL,
+	entry_date DATETIME NOT NULL,
+PRIMARY KEY(id));
+
+INSERT INTO models VALUES
+(0, '1', 'M-2020', ''),
+(0, '2', 'K-2021', ''),
+(0, '4', 'A-2021', ''),
+(0, '4', 'E-2020', ''),
+(0, '2', 'F-2021', ''),
+(0, '4', 'U-2022', ''),
+(0, '1', 'M-2021', ''),
+(0, '3', 'G-2020', ''),
+(0, '3', 'I-2020', '');

@@ -1,0 +1,631 @@
+CRITICAL - 2022-01-08 00:05:32 --> Function name must be a string
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 00:07:16 --> Function name must be a string
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 00:07:17 --> Function name must be a string
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:07:31 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:07:31 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:07:33 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:07:33 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:08:22 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:08:22 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:09:30 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:09:30 --> Call to a member function getRow() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:10:25 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:10:25 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:10:26 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:10:26 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:14:07 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:14:07 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:14:09 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:14:09 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:14:10 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:14:10 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:19:03 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:19:03 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:19:04 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:19:04 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:22:25 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:22:25 --> Trying to get property 'num_rows' of non-object
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Apache24\\htd...', 27, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+ERROR - 2022-01-08 00:23:57 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:23:57 --> Trying to get property 'num_rows' of non-object
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Apache24\\htd...', 27, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+ERROR - 2022-01-08 00:23:59 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:23:59 --> Trying to get property 'num_rows' of non-object
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Apache24\\htd...', 27, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+ERROR - 2022-01-08 00:23:59 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:23:59 --> Trying to get property 'num_rows' of non-object
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Apache24\\htd...', 27, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+ERROR - 2022-01-08 00:25:05 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:25:05 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:25:07 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:25:07 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:25:07 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:25:07 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:26:34 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:26:34 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:26:35 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:26:35 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:28:53 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:28:53 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 00:31:51 --> Undefined variable: brands
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\model\list_model.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('model/list_mode...', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ModelController.php(51): view('model/list_mode...', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ModelController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModelController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2022-01-08 00:32:20 --> Undefined index: id
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\model\list_model.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Apache24\\htd...', 19, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('model/list_mode...', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ModelController.php(51): view('model/list_mode...', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ModelController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModelController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:35:56 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:35:56 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:40:52 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:40:52 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:40:55 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:40:55 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:41:13 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:41:13 --> Undefined variable: brands
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:41:53 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:41:53 --> Undefined variable: items
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:41:54 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:41:54 --> Undefined variable: items
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:41:55 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:41:55 --> Undefined variable: items
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:41:56 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:41:56 --> Undefined variable: items
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:41:57 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:41:57 --> Undefined variable: items
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:42:24 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:42:24 --> Invalid argument supplied for foreach()
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:42:25 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:42:25 --> Invalid argument supplied for foreach()
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(31): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 00:43:24 --> Table 'inventory_db.item' doesn't exist
+ERROR - 2022-01-08 00:43:45 --> Table 'inventory_db.item' doesn't exist
+ERROR - 2022-01-08 00:43:45 --> Table 'inventory_db.item' doesn't exist
+ERROR - 2022-01-08 00:50:00 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 00:50:00 --> Call to a member function getArrayResult() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 00:53:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 00:54:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 00:54:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 00:54:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:57:53 --> Not unique table/alias: 'items'
+CRITICAL - 2022-01-08 00:57:53 --> Call to a member function getArrayResult() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:57:55 --> Not unique table/alias: 'items'
+CRITICAL - 2022-01-08 00:57:55 --> Call to a member function getArrayResult() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:57:55 --> Not unique table/alias: 'items'
+CRITICAL - 2022-01-08 00:57:55 --> Call to a member function getArrayResult() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:57:56 --> Not unique table/alias: 'items'
+CRITICAL - 2022-01-08 00:57:56 --> Call to a member function getArrayResult() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 00:58:07 --> Not unique table/alias: 'items'
+ERROR - 2022-01-08 00:58:30 --> Not unique table/alias: 'items'
+ERROR - 2022-01-08 00:58:31 --> Not unique table/alias: 'items'
+ERROR - 2022-01-08 01:02:25 --> Table 'inventory_db.item' doesn't exist
+ERROR - 2022-01-08 01:02:39 --> Table 'inventory_db.item' doesn't exist
+CRITICAL - 2022-01-08 01:07:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:08:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:08:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:41:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:41:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:41:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:41:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:41:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:42:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:43:36 --> Undefined variable: result
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 23, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2022-01-08 01:43:37 --> Undefined variable: result
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 23, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2022-01-08 01:43:38 --> Undefined variable: result
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 23, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2022-01-08 01:44:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArrayResult()
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+CRITICAL - 2022-01-08 01:50:05 --> Undefined variable: brands
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 18, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(32): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2022-01-08 01:53:30 --> Undefined index: name
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Apache24\\htd...', 19, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(32): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2022-01-08 01:53:31 --> Undefined index: name
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Apache24\\htd...', 19, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(32): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2022-01-08 01:54:59 --> Undefined variable: model
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 60, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(32): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2022-01-08 01:56:23 --> Undefined index: name
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Apache24\\htd...', 124, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(32): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2022-01-08 02:33:12 --> Undefined index: model_name
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Views\item\list_item.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Apache24\\htd...', 29, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(210): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('item/list_item', Array, true)
+#4 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(35): view('item/list_item', Array)
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+ERROR - 2022-01-08 02:52:14 --> Not unique table/alias: 'brand'
+CRITICAL - 2022-01-08 02:52:14 --> Call to a member function getResult() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(33): CodeIgniter\BaseModel->findAll()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#7 {main}
+ERROR - 2022-01-08 02:52:42 --> Not unique table/alias: 'brand'
+CRITICAL - 2022-01-08 02:52:42 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->index()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
+ERROR - 2022-01-08 03:52:52 --> Operand should contain 1 column(s)
+CRITICAL - 2022-01-08 04:47:29 --> Undefined variable: models
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 77, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->edit_item()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2022-01-08 07:03:56 --> Invalid file: front_end.php
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front_end.php')
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('front_end', Array, true)
+#2 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\Home.php(9): view('front_end')
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+CRITICAL - 2022-01-08 07:12:09 --> Cannot call constructor
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#5 {main}
