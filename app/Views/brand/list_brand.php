@@ -133,6 +133,7 @@
 
             var char_pattern = /^[a-zA-Z0-9]*$/; 
             var brand_name = $('#brand_name').val();
+            // var check_brand_name = $.trim($('#brand_name').val());
 
             if($.trim(brand_name).length == 0){
                 error_name = "Brand Name is mandatory !!!";
@@ -146,7 +147,7 @@
             }else{
                 var data = {
                     'brand_id' : $('#brand_id').val(),
-                    'brand_name' : $('#brand_name').val(),
+                    'brand_name' : $('#brand_name').val()
                 };
                 $.ajax({
                     method: "POST",
@@ -210,6 +211,7 @@
         $('.add_new_brand').on('click', function(){
             var char_pattern = /^[a-zA-Z0-9]*$/; 
             var brand_name = $('#name').val();
+            var check_brand_name = $.trim($('#name').val());
 
             if($.trim(brand_name).length == 0){
                 error_name = "Brand Name is mandatory !!!";
@@ -220,22 +222,28 @@
             }else if(!char_pattern.test(brand_name)){
                 error_name = "Should contain Characters !!!";
                 $("#error_name").text(error_name);
-            }else{
+            }else if(check_brand_name != ''){
                 var data = {
-                    'name' : $("#name").val()
+                    'name' : $("#name").val(),
+                    'check_brand_name' : check_brand_name
                 };
                 $.ajax({
                     method: "POST",
                     url: "/brand/add_brand",
                     data: data,
                     success:function(response){
-                        $('#addbrandModal').modal('hide');
-                        $('#addbrandModal').find('input').val('');
-                        alertify.set('notifier', 'position', 'bottom-left');
-                        alertify.success(response.status);
-                        window.location.replace('/brand');
-                        // $('.brand_data').html("");
-                        // loadBrand();
+                        if(response == "1"){
+                            $("#error_name").text("Brand name is Already Exists");
+                        }else{
+                            $('#addbrandModal').modal('hide');
+                            $('#addbrandModal').find('input').val('');
+                            alertify.set('notifier', 'position', 'bottom-left');
+                            alertify.success(response.status);
+                            window.location.replace('/brand');
+                            // $('.brand_data').html("");
+                            // loadBrand();
+                        }
+                        
                     }
                 })
             }

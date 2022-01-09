@@ -158,7 +158,7 @@
         
         $('#model_update').on('click', function(){
 
-            var char_pattern = /^[a-zA-Z]*$/; 
+            var char_pattern = /^[a-zA-Z0-9]*$/; 
             var brand_id = $('#brand_id_update').val();
             var model_name = $('#model_name_update').val();
 
@@ -247,9 +247,10 @@
 <script>
     $(document).ready(function(){
         $('.add_new_model').on('click', function(){
-            var char_pattern = /^[a-zA-Z]*$/; 
+            var char_pattern = /^[a-zA-Z0-9]*$/; 
             var model_name = $('#model_name').val();
             var brand_name = $('#brand_id').val();
+            var check_model_name = $.trim(model_name);
 
             if($.trim(model_name).length == 0 || brand_name == ''){
                 if($.trim(model_name).length == 0){
@@ -265,23 +266,29 @@
             }else if(char_pattern.test(model_name)){
                 error_name = "Should contain Characters !!!";
                 $("#error_model_name").text(error_name);
-            }else{
+            }else if(check_model_name != '' && brand_name != ''){
                 var data = {
                     'brand_id' : $("#brand_id").val(),
-                    'model_name' : $("#model_name").val()
+                    'model_name' : $("#model_name").val(),
+                    'check_model_name': check_model_name
                 };
                 $.ajax({
                     method: "POST",
                     url: "/model/add_model",
                     data: data,
                     success:function(response){
-                        $('#addmodelModal').modal('hide');
-                        $('#addmodelModal').find('input').val('');
-                        alertify.set('notifier', 'position', 'bottom-left');
-                        alertify.success(response.status);
-                        window.location.replace('/model');
-                        // $('.brand_data').html("");
-                        // loadBrand();
+                        if(response == "1"){
+                            $('error_model_name').text("Model is Already Exists");
+                        }else{
+                            $('#addmodelModal').modal('hide');
+                            $('#addmodelModal').find('input').val('');
+                            alertify.set('notifier', 'position', 'bottom-left');
+                            alertify.success(response.status);
+                            window.location.replace('/model');
+                            // $('.brand_data').html("");
+                            // loadBrand();
+                        }
+                       
                     }
                 })
             }

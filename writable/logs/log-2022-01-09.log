@@ -1,0 +1,17 @@
+CRITICAL - 2022-01-09 00:33:11 --> Undefined property: App\Controllers\ItemController::$requst
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Apache24\\htd...', 49, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->add_item()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+ERROR - 2022-01-09 00:34:06 --> Unknown column 'items.item_name' in 'where clause'
+CRITICAL - 2022-01-09 00:34:06 --> Call to a member function getResultArray() on bool
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ItemController.php(50): App\Models\Item->functionExists('F-Shirt 20', '2', '3')
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ItemController->add_item()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ItemController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}

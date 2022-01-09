@@ -279,6 +279,7 @@
             var item_name = $('#item_name').val();
             var brand_name = $('#brand_id').val();
             var model_name = $('#model_id').val();
+            var check_item_name = $.trim(item_name);
 
             if($.trim(item_name).length == 0 || brand_name == '' || model_name == ''){
                 if($.trim(item_name).length == 0){
@@ -297,24 +298,30 @@
             }else if(char_pattern.test(item_name)){
                 error_name = "Should contain Characters !!!";
                 $("#error_item_name").text(error_name);
-            }else{
+            }else if(check_item_name != '' && brand_name != '' && model_name != ''){
                 var data = {
                     'brand_id' : $("#brand_id").val(),
                     'model_id' : $("#model_id").val(),
-                    'item_name' : $("#item_name").val()
+                    'item_name' : $("#item_name").val(),
+                    'check_item_name': check_item_name
                 };
                 $.ajax({
                     method: "POST",
                     url: "/item/add_item",
                     data: data,
                     success:function(response){
-                        $('#additemModal').modal('hide');
-                        $('#additemModal').find('input').val('');
-                        alertify.set('notifier', 'position', 'bottom-left');
-                        alertify.success(response.status);
-                        window.location.replace('/item');
-                        // $('.brand_data').html("");
-                        // loadBrand();
+                        if(response == "1"){
+                            $("#error_item_name").text("Item is Already Exists");
+                        }else{
+                            $('#additemModal').modal('hide');
+                            $('#additemModal').find('input').val('');
+                            alertify.set('notifier', 'position', 'bottom-left');
+                            alertify.success(response.status);
+                            window.location.replace('/item');
+                            // $('.brand_data').html("");
+                            // loadBrand();
+                        }
+                     
                     }
                 })
             }

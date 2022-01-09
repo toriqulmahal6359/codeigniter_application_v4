@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 08, 2022 at 01:53 PM
+-- Generation Time: Jan 09, 2022 at 06:45 AM
 -- Server version: 8.0.27
 -- PHP Version: 7.4.25
 
@@ -38,10 +38,11 @@ CREATE TABLE `brand` (
 --
 
 INSERT INTO `brand` (`id`, `name`, `entry_date`) VALUES
-(1, 'Aarong', '2022-01-06 11:21:52'),
+(1, 'CatsEye', '2022-01-06 11:21:52'),
 (2, 'Yellow', '2022-01-06 11:22:45'),
-(4, 'Raymond2', '2022-01-07 12:15:47'),
-(7, 'fvbfhvbfjkvhgbfkhvbgfshgbfhvbkfushvbgusfhvfhvfdjkh', '2022-01-07 13:19:31');
+(4, 'CatsEye2', '2022-01-07 12:15:47'),
+(7, 'Raymond', '2022-01-07 13:19:31'),
+(23, 'CatsEye3', '2022-01-09 11:14:19');
 
 -- --------------------------------------------------------
 
@@ -66,7 +67,8 @@ INSERT INTO `items` (`id`, `brand_id`, `model_id`, `item`, `entry_date`) VALUES
 (2, 2, 1, 'Shirt 100', '2022-01-08 11:50:12'),
 (3, 4, 1, 'Pant 50', '2022-01-08 11:50:39'),
 (4, 4, 2, 'Shirt 50', '2022-01-08 11:50:55'),
-(14, 2, 3, 'F-Shirt 20', '2022-01-08 15:53:42');
+(14, 2, 3, 'F-Shirt 20', '2022-01-08 15:53:42'),
+(16, 2, 3, 'F-Shirt 25', '2022-01-09 12:37:19');
 
 -- --------------------------------------------------------
 
@@ -91,7 +93,9 @@ INSERT INTO `models` (`id`, `brand_id`, `model_name`, `entry_date`) VALUES
 (3, 4, 'A-2021', '2022-01-07 09:41:05'),
 (4, 4, 'E-2020', '2022-01-08 09:41:14'),
 (6, 4, 'M-256', '2022-01-08 17:31:59'),
-(7, 1, 'A-257', '2022-01-08 17:43:00');
+(7, 1, 'A-256', '2022-01-08 17:43:00'),
+(8, 1, 'K-15', '2022-01-09 08:50:51'),
+(9, 1, 'A-2021', '2022-01-09 12:03:46');
 
 --
 -- Indexes for dumped tables
@@ -123,19 +127,19 @@ ALTER TABLE `models`
 -- AUTO_INCREMENT for table `brand`
 --
 ALTER TABLE `brand`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `items`
 --
 ALTER TABLE `items`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `models`
 --
 ALTER TABLE `models`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

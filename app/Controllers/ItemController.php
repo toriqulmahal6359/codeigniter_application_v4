@@ -44,17 +44,28 @@ class ItemController extends BaseController
     public function add_item()
     {
         $item = new Item();
-        $data = [
-            'brand_id' => $this->request->getPost('brand_id'),
-            'model_id' => $this->request->getPost('model_id'),
-            'item' => $this->request->getPost('item_name')
-        ];
-        $save = $item->save($data);
-        // echo "<pre>";
-        // print_r($data);
-        // die();
-        $data = ['status' => 'Item has been added Successfully'];
-        return $this->response->setJSON($data);
+        $check_item_name = $this->request->getPost('check_item_name');
+        $check_brand_name = $this->request->getPost('brand_id');
+        $check_model_name = $this->request->getPost('model_id');
+        $exists = $item->functionExists($check_item_name, $check_brand_name, $check_model_name);
+        $count = count($exists);
+        if(empty($count)){
+            $data = [
+                'brand_id' => $this->request->getPost('brand_id'),
+                'model_id' => $this->request->getPost('model_id'),
+                'item' => $this->request->getPost('item_name')
+            ];
+            $save = $item->save($data);
+            // echo "<pre>";
+            // print_r($data);
+            // die();
+            $data = ['status' => 'Item has been added Successfully'];
+            return $this->response->setJSON($data);
+        }else{
+            $data = ['status' => 'Item is Already Exists'];
+            return $this->response->setJSON($data);
+        }
+        
         
         // if($save != false){
         //     $data = $this->db->table('models')->where('id', $save)->first();

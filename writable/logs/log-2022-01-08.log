@@ -629,3 +629,68 @@ CRITICAL - 2022-01-08 07:12:09 --> Cannot call constructor
 #3 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
 #5 {main}
+CRITICAL - 2022-01-08 22:48:08 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Apache24\\htd...', 24, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\BrandController.php(24): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\BrandController->add_brand()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BrandController))
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#7 {main}
+CRITICAL - 2022-01-08 22:48:32 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Apache24\\htd...', 24, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\BrandController.php(24): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\BrandController->add_brand()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BrandController))
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#7 {main}
+CRITICAL - 2022-01-08 22:49:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Apache24\\htd...', 24, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\BrandController.php(24): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\BrandController->add_brand()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BrandController))
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#7 {main}
+CRITICAL - 2022-01-08 23:04:01 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\Apache24\htdocs\inventory_codeigniter\system\Model.php on line 184
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\BrandController.php(12): CodeIgniter\BaseModel->findAll()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\BrandController->index()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BrandController))
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+CRITICAL - 2022-01-08 23:04:15 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\Apache24\htdocs\inventory_codeigniter\system\Model.php on line 184
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\ModelController.php(46): CodeIgniter\BaseModel->findAll()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\ModelController->index()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ModelController))
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+CRITICAL - 2022-01-08 23:07:00 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\Apache24\htdocs\inventory_codeigniter\system\Model.php on line 184
+#0 C:\Apache24\htdocs\inventory_codeigniter\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\BrandController.php(12): CodeIgniter\BaseModel->findAll()
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\BrandController->index()
+#4 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BrandController))
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+CRITICAL - 2022-01-08 23:09:11 --> Undefined variable: check_brand_name
+#0 C:\Apache24\htdocs\inventory_codeigniter\app\Controllers\BrandController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Apache24\\htd...', 23, Array)
+#1 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(825): App\Controllers\BrandController->add_brand()
+#2 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BrandController))
+#3 C:\Apache24\htdocs\inventory_codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\inventory_codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\inventory_codeigniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}

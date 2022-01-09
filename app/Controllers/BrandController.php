@@ -5,6 +5,7 @@ use CodeIgniter\I18n\Time;
 
 class BrandController extends BaseController
 {
+
     public function index()
     {
         $brands = new Brand();
@@ -17,13 +18,22 @@ class BrandController extends BaseController
         $brand = new Brand();
         helper('date');
         $now = now();
-        $datetime = date('Y-m-d H:i:s', strtotime($now)); 
-        $data = [
-            'name' => $this->request->getPost('name'),
-        ];
-        $brand->save($data);
-        $data = ['status' => 'Brand has been added Successfully'];
-        return $this->response->setJSON($data);
+        $datetime = date('Y-m-d H:i:s', strtotime($now));
+        $check_brand_name = $this->request->getPost('check_brand_name');
+        $exists = $brand->functionExists($check_brand_name);
+        $count = count($exists);
+        if(empty($count)){
+            $data = [
+                'name' => $this->request->getPost('name'),
+            ];
+            $brand->save($data);
+            $data = ['status' => 'Brand has been added Successfully'];
+            return $this->response->setJSON($data);
+        }else{
+            $data = ['status' => 'Brand name is Already Exists'];
+            return $this->response->setJSON($data);
+        }
+            
     }
 
     // public function fetch_brand()
@@ -45,19 +55,26 @@ class BrandController extends BaseController
     public function update_brand()
     {
         $brands = new Brand();
-        $brand_id = $this->request->getPost('brand_id');
+        
 
         // $input_value = $this->request->getVar('input_value');
         // $input_type = $this->request->getVar('input_type');
         // if($input_type == 'brand_name'){
         //     $type = $brands->select('*')->where('name', $input_value)->get();
         // }
-        $data = [
-            'name' => $this->request->getPost('brand_name'),
-        ];
-        $brands->update($brand_id, $data);
-        $message = ['status' => 'Brand has been updated Successfully'];
-        return $this->response->setJSON($data);
+        // $check_brand_name = $this->request->getPost('check_brand_name');
+        // $query = $brands->select('name')->where('name', $check_brand_name)->limit(1)->get();
+        // if($query == "1"){
+        //     echo "1";
+        // }
+            $brand_id = $this->request->getPost('brand_id');
+            $data = [
+                'id' => $this->request->getPost('brand_id'),
+                'name' => $this->request->getPost('brand_name'),
+            ];
+            $brands->update($brand_id, $data);
+            $message = ['status' => 'Brand has been updated Successfully'];
+            return $this->response->setJSON($data);
     }
 
     public function delete_brand()

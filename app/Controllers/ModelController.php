@@ -58,13 +58,25 @@ class ModelController extends BaseController
         //                 ->join('brand', 'brand.id = models.brand_id ')
         //                 ->get()
         //                 ->getResultArray();
-        $data = [
-            'brand_id' => $this->request->getPost('brand_id'),
-            'model_name' => $this->request->getPost('model_name')
-        ];
-        $save = $model->save($data);
-        $data = ['status' => 'Model has been added Successfully'];
-        return $this->response->setJSON($data);
+
+        $check_model_name = $this->request->getPost('check_model_name');
+        $check_brand_name = $this->request->getPost('brand_id');
+        $exists = $model->functionExists($check_model_name, $check_brand_name);
+        $count = count($exists);
+        if(empty($count)){
+            $data = [
+                'brand_id' => $this->request->getPost('brand_id'),
+                'model_name' => $this->request->getPost('model_name')
+            ];
+            $save = $model->save($data);
+            $data = ['status' => 'Model has been added Successfully'];
+            return $this->response->setJSON($data);
+        }else{
+            // return false;
+            $data = ['status' => 'Model is Already Exists'];
+            return $this->response->setJSON($data);
+        } 
+        
         // echo "<pre>";
         // print_r($data);
         // echo "</pre>";
