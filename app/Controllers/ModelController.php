@@ -119,6 +119,17 @@ class ModelController extends BaseController
         //                 ->getResultArray();
 
         $model_id = $this->request->getPost('model_id');
+
+        // $input_value = $this->request->getVar('input_value');
+        // $input_type = $this->request->getVar('input_type');
+        // if($input_type == 'model_name'){
+        //     $type = $model->select('models.id as model_id, models.model_name, models.brand_id')
+        //           ->join('brand', 'brand.id = models.brand_id')
+        //           ->where('models.model_name', $input_value)
+        //           ->get()
+        //           ->getResultArray();
+        // }
+
         $data = [
             'brand_id' => $this->request->getPost('brand_id_update'),
             'model_name' => $this->request->getPost('model_name_update')

@@ -131,18 +131,18 @@
         
         $('#brand_update').on('click', function(){
 
-            var char_pattern = /^[a-zA-Z]*$/; 
+            var char_pattern = /^[a-zA-Z0-9]*$/; 
             var brand_name = $('#brand_name').val();
 
             if($.trim(brand_name).length == 0){
                 error_name = "Brand Name is mandatory !!!";
                 $('#error_name_update').text(error_name);
-            }else if($('#name').val().length >= 5){
+            }else if($('#brand_name').val().length >= 50){
                 error_name = "Maximum Length is 50 !!!";
                 $('#error_name_update').text(error_name);
-            }else if(char_pattern.test(brand_name)){
+            }else if(!char_pattern.test(brand_name)){
                 error_name = "Should contain Characters !!!";
-                $("#error_name_update").text(error_name);
+                $("#error_name_update").text(error_name)
             }else{
                 var data = {
                     'brand_id' : $('#brand_id').val(),
@@ -208,16 +208,16 @@
 <script>
     $(document).ready(function(){
         $('.add_new_brand').on('click', function(){
-            var char_pattern = /^[a-zA-Z]*$/; 
+            var char_pattern = /^[a-zA-Z0-9]*$/; 
             var brand_name = $('#name').val();
 
             if($.trim(brand_name).length == 0){
                 error_name = "Brand Name is mandatory !!!";
                 $('#error_name').text(error_name);
-            }else if($('#name').val().length >= 5){
+            }else if($('#name').val().length >= 50){
                 error_name = "Maximum Length is 50 !!!";
                 $('#error_name').text(error_name);
-            }else if(char_pattern.test(brand_name)){
+            }else if(!char_pattern.test(brand_name)){
                 error_name = "Should contain Characters !!!";
                 $("#error_name").text(error_name);
             }else{

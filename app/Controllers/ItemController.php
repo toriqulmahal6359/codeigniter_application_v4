@@ -107,6 +107,18 @@ class ItemController extends BaseController
         //                 ->getResultArray();
 
         $item_id = $this->request->getPost('item_id');
+
+        // $input_value = $this->request->getVar('input_value');
+        // $input_type = $this->request->getVar('input_type');
+        // if($input_type == 'model_name'){
+        //     $type = $model->select('items.id as item_id, items.item as item_name, items.brand_id, items.model_id, brand.name as brand_name, models.model_name')
+        //           ->join('brand', 'brand.id = items.brand_id')
+        //           ->join('models', 'models.id = items.model_id')
+        //           ->where('items.item ', $input_value)
+        //           ->get()
+        //           ->getResultArray();
+        // }
+
         $data = [
             'brand_id' => $this->request->getPost('brand_id_update'),
             'model_id' => $this->request->getPost('model_id_update'),

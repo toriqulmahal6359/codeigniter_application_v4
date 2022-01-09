@@ -46,6 +46,12 @@ class BrandController extends BaseController
     {
         $brands = new Brand();
         $brand_id = $this->request->getPost('brand_id');
+
+        // $input_value = $this->request->getVar('input_value');
+        // $input_type = $this->request->getVar('input_type');
+        // if($input_type == 'brand_name'){
+        //     $type = $brands->select('*')->where('name', $input_value)->get();
+        // }
         $data = [
             'name' => $this->request->getPost('brand_name'),
         ];

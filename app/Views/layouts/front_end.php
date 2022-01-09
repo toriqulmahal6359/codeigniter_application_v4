@@ -19,7 +19,7 @@
         <h1 class="text-center" style="padding:60px;">Welcome to My Project !!!</h1>
         <?= $this->renderSection('content'); ?>
     </div>
-    <script src="<?= base_url('assets/js/jquery-3.5.1.js'); ?>"></script>
+    <script src="<?= base_url('assets/js/jquery-2.1.3.js'); ?>"></script>
     <script src="<?= base_url('assets/js/popper.min.js'); ?>"></script>
     <script src="<?= base_url('assets/js/bootstrap.min.js'); ?>"></script>
     <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
