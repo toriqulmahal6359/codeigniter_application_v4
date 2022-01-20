@@ -116,39 +116,49 @@ class ItemController extends BaseController
         //                 ->join('brand', 'models.brand_id = brand.id')
         //                 ->get()
         //                 ->getResultArray();
+        
+        $check_item_name = $this->request->getPost('check_item_name');
+        $check_brand_name = $this->request->getPost('brand_id_update');
+        $check_model_name = $this->request->getPost('model_id_update');
+        $exists = $item->functionExists($check_item_name, $check_brand_name, $check_model_name);
+        $count = count($exists);
+        if(empty($count)){
+            $item_id = $this->request->getPost('item_id');
 
-        $item_id = $this->request->getPost('item_id');
-
-        // $input_value = $this->request->getVar('input_value');
-        // $input_type = $this->request->getVar('input_type');
-        // if($input_type == 'model_name'){
-        //     $type = $model->select('items.id as item_id, items.item as item_name, items.brand_id, items.model_id, brand.name as brand_name, models.model_name')
-        //           ->join('brand', 'brand.id = items.brand_id')
-        //           ->join('models', 'models.id = items.model_id')
-        //           ->where('items.item ', $input_value)
-        //           ->get()
-        //           ->getResultArray();
-        // }
-
-        $data = [
-            'brand_id' => $this->request->getPost('brand_id_update'),
-            'model_id' => $this->request->getPost('model_id_update'),
-            'item' => $this->request->getPost('item_name_update'),
-        ];
-        // echo '<pre>';
-        // print_r($this->request->getPost());
-        // echo '</pre>';
-        $update = $item->update($item_id,$data);
-        // echo '<pre>';
-        // print_r($data);
-        // echo '</pre>';
-        $data = ['status' => 'Item has been Updated Successfully'];
-        return $this->response->setJSON($data);
-
-        // if($update != false){
-        //     $data = $model->where('id', $id)->first();
-        //     echo json_encode(array("status" => true , 'data' => $data));
-        // }
+            // $input_value = $this->request->getVar('input_value');
+            // $input_type = $this->request->getVar('input_type');
+            // if($input_type == 'model_name'){
+            //     $type = $model->select('items.id as item_id, items.item as item_name, items.brand_id, items.model_id, brand.name as brand_name, models.model_name')
+            //           ->join('brand', 'brand.id = items.brand_id')
+            //           ->join('models', 'models.id = items.model_id')
+            //           ->where('items.item ', $input_value)
+            //           ->get()
+            //           ->getResultArray();
+            // }
+    
+            $data = [
+                'brand_id' => $this->request->getPost('brand_id_update'),
+                'model_id' => $this->request->getPost('model_id_update'),
+                'item' => $this->request->getPost('item_name_update'),
+            ];
+            // echo '<pre>';
+            // print_r($this->request->getPost());
+            // echo '</pre>';
+            $update = $item->update($item_id,$data);
+            // echo '<pre>';
+            // print_r($data);
+            // echo '</pre>';
+            $data = ['status' => 'Item has been Updated Successfully'];
+            return $this->response->setJSON($data);
+    
+            // if($update != false){
+            //     $data = $model->where('id', $id)->first();
+            //     echo json_encode(array("status" => true , 'data' => $data));
+            // }
+        }else{
+            $data = ['status' => 'Item is Already Exists'];
+            return $this->response->setJSON($data);
+        }
     }
 
     public function delete_item()

@@ -185,6 +185,7 @@
             var brand_id = $('#brand_id_update').val();
             var model_id = $('#model_id_update').val();
             var item_name = $('#item_name_update').val();
+            var check_item_name = $.trim(item_name);
 
             if($.trim(item_name).length == 0 || brand_id == '' || model_id == ''){
                 if($.trim(item_name).length == 0){
@@ -203,12 +204,13 @@
             }else if(char_pattern.test(item_name)){
                 error_name = "Should contain Characters !!!";
                 $("#error_item_name_update").text(error_name);
-            }else{
+            }else if(check_item_name != '' && brand_id != '' && model_id != ''){
                 var data = {
                     'item_id': $('#item_id').val(),
                     'brand_id_update' : $('#brand_id_update').val(),
                     'model_id_update' : $('#model_id_update').val(),
-                    'item_name_update' : $('#item_name_update').val()
+                    'item_name_update' : $('#item_name_update').val(),
+                    'check_item_name' : check_item_name
                 };
                 $.ajax({
                     method: "POST",

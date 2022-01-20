@@ -130,7 +130,34 @@ class ModelController extends BaseController
         //                 ->get()
         //                 ->getResultArray();
 
-        $model_id = $this->request->getPost('model_id');
+        $check_model_name = $this->request->getPost('check_model_name');
+        $check_brand_name = $this->request->getPost('brand_id_update');
+        $exists = $model->functionExists($check_model_name, $check_brand_name);
+        $count = count($exists);
+        if(empty($count)){
+            $model_id = $this->request->getPost('model_id');
+            $data = [
+                'brand_id' => $this->request->getPost('brand_id_update'),
+                'model_name' => $this->request->getPost('model_name_update')
+            ];
+            // echo '<pre>';
+            // print_r($this->request->getPost());
+            // echo '</pre>';
+            $update = $model->update($model_id, $data);
+            // echo '<pre>';
+            // print_r($data);
+            // echo '</pre>';
+            $data = ['status' => 'Model has been Updated Successfully'];
+            return $this->response->setJSON($data);
+    
+            // if($update != false){
+            //     $data = $model->where('id', $id)->first();
+            //     echo json_encode(array("status" => true , 'data' => $data));
+            // }
+        }else{
+            $data = ['status' => 'Model is Already Exists'];
+            return $this->response->setJSON($data);
+        }
 
         // $input_value = $this->request->getVar('input_value');
         // $input_type = $this->request->getVar('input_type');
@@ -142,24 +169,7 @@ class ModelController extends BaseController
         //           ->getResultArray();
         // }
 
-        $data = [
-            'brand_id' => $this->request->getPost('brand_id_update'),
-            'model_name' => $this->request->getPost('model_name_update')
-        ];
-        // echo '<pre>';
-        // print_r($this->request->getPost());
-        // echo '</pre>';
-        $update = $model->update($model_id, $data);
-        // echo '<pre>';
-        // print_r($data);
-        // echo '</pre>';
-        $data = ['status' => 'Model has been Updated Successfully'];
-        return $this->response->setJSON($data);
-
-        // if($update != false){
-        //     $data = $model->where('id', $id)->first();
-        //     echo json_encode(array("status" => true , 'data' => $data));
-        // }
+     
     }
 
     public function delete_model()

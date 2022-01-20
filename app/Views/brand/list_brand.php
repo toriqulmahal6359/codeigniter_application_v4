@@ -144,7 +144,7 @@
             }else if(!char_pattern.test(brand_name)){
                 error_name = "Should contain Characters !!!";
                 $("#error_name_update").text(error_name)
-            }else{
+            }else if(check_brand_name != ''){
                 var data = {
                     'brand_id' : $('#brand_id').val(),
                     'brand_name' : $('#brand_name').val(),
