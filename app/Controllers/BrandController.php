@@ -68,13 +68,22 @@ class BrandController extends BaseController
         //     echo "1";
         // }
             $brand_id = $this->request->getPost('brand_id');
-            $data = [
-                'id' => $this->request->getPost('brand_id'),
-                'name' => $this->request->getPost('brand_name'),
-            ];
-            $brands->update($brand_id, $data);
-            $message = ['status' => 'Brand has been updated Successfully'];
-            return $this->response->setJSON($data);
+            $check_brand_name = $this->request->getPost('check_brand_name');
+            $exists = $brands->functionExists($check_brand_name);
+            $count = count($exists);
+            if(empty($count)){
+                $data = [
+                    'id' => $this->request->getPost('brand_id'),
+                    'name' => $this->request->getPost('brand_name'),
+                ];
+                $brands->update($brand_id, $data);
+                $message = ['status' => 'Brand has been updated Successfully'];
+                return $this->response->setJSON($data);
+            }else{
+                $data = ['status' => 'Brand name is Already Exists'];
+                return $this->response->setJSON($data);
+            }
+            
     }
 
     public function delete_brand()

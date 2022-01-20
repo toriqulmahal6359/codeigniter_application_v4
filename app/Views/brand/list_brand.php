@@ -133,7 +133,7 @@
 
             var char_pattern = /^[a-zA-Z0-9]*$/; 
             var brand_name = $('#brand_name').val();
-            // var check_brand_name = $.trim($('#brand_name').val());
+            var check_brand_name = $.trim($('#brand_name').val());
 
             if($.trim(brand_name).length == 0){
                 error_name = "Brand Name is mandatory !!!";
@@ -147,7 +147,8 @@
             }else{
                 var data = {
                     'brand_id' : $('#brand_id').val(),
-                    'brand_name' : $('#brand_name').val()
+                    'brand_name' : $('#brand_name').val(),
+                    'check_brand_name' : check_brand_name
                 };
                 $.ajax({
                     method: "POST",
