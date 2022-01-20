@@ -238,6 +238,7 @@
                         }else{
                             $('#addbrandModal').modal('hide');
                             $('#addbrandModal').find('input').val('');
+                            // alert("Model Has been Added Successfully");
                             alertify.set('notifier', 'position', 'bottom-left');
                             alertify.success(response.status);
                             window.location.replace('/brand');
